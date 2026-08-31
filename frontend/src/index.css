@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcfcfc;
+}
+
+/* Naprawa widoczności placeholderów w edytorze */
+.tiptap .tiptap-placeholder,
+.tiptap [data-placeholder]::before {
+  color: #94a3b8 !important; /* Slate-400 - wyraźny szary */
+  opacity: 1 !important;
+  pointer-events: none;
+  user-select: none;
+}
+
+[contenteditable="true"]:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+[contenteditable="true"]:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
