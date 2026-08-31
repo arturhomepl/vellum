@@ -9,6 +9,10 @@ yarn-error.log
 /prisma/*.db
 /prisma/*.db-journal
 
+# Prisma
+/backend/prisma/*.db
+/backend/prisma/*.db-journal
+
 # Build artifacts
 dist/
 build/
